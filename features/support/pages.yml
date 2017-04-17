@@ -1,0 +1,30 @@
+homePage:
+  loginLink: 'html/body/div[1]/div[3]/div/header/div[2]/div[3]/div[1]/div/div/div/a[1]/span'
+
+loginData:
+  loginIcon: 'div[class="defaultUserBackground noPhoto"]'
+
+search:
+  propertySearchField: 'City, Address, School, Agent, ZIP'
+  city: 'Irvine, CA'
+  searchButton: 'html/body/div[1]/div[5]/div/section/div/span/div/div/div[1]/div/div[2]/div[1]/div/div/div/form/div/button'
+  searchUrl: "https://www.redfin.com/city/9361/CA/Irvine"
+  tableViewLink: 'span[class="modeOptionInnard table"]'
+  filtersLink: 'button[data-rf-test-id="filterButton"]'
+  price: 'html/body/div[1]/div[4]/div/div[2]/div[1]/div[2]/form/div[1]/span[3]/span[1]/span/span[1]'
+  updateSearchButton: 'button[data-rf-test-name="submitButton"]'
+  priceDropDown: 'span[class="field select Select clickable dropdown compact quickMinPrice minPrice"]'
+  priceItem: 'html/body/div[1]/div[4]/div/div[2]/div[1]/div[2]/form/div[1]/span[1]/span[1]/div/div/div/div[7]/span'
+
+result:
+  returnedPrice: "tr[id=\"ReactDataTableRow_#{i}\"] > td[class=\"column column_3 col_price\"]"
+  returnedBeds:  "tr[id=\"ReactDataTableRow_#{i}\"] > td[class=\"column column_4 col_beds\"]"
+  returnedBaths: "tr[id=\"ReactDataTableRow_#{i}\"] > td[class=\"column column_5 col_baths\"]"
+
+# I could have used a function to select a random item in the dropdown
+minPrice: '175000'
+minBeds: '6'
+bathsListItem: '6+'
+numBaths: '6'
+minSqft: '5,000'
+minYearBuilt: '2000'
